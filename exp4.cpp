@@ -11,15 +11,15 @@ class biodata{
 
 
    biodata(string name ,int rno, double cgpa){
-     name = name;
-     rollno=rno;
-     cgpa=cgpa;
+     this->name = name;
+     this->rollno=rno;
+     this->cgpa=cgpa;
 
    }
 };
 int main(){
 
-    biodata s1("jhon ",58,9.6);
+    biodata s1("jhon",58,9.6);
     cout<<s1.name<<" "<<s1.rollno<<" "<<s1.cgpa<<" ";
     return 0;
 }
